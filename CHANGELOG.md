@@ -1,1 +1,20 @@
-IyBDaGFuZ2Vsb2cKCkFsbCBub3RhYmxlIGNoYW5nZXMgdG8gR2Vub21lUHJvYmUgYXJlIGRvY3VtZW50ZWQgaW4gdGhpcyBmaWxlLgoKVGhlIGZvcm1hdCBpcyBiYXNlZCBvbiBbS2VlcCBhIENoYW5nZWxvZ10oaHR0cHM6Ly9rZWVwYWNoYW5nZWxvZy5jb20vKSwKYW5kIHRoaXMgcHJvamVjdCBhZGhlcmVzIHRvIFtTZW1hbnRpYyBWZXJzaW9uaW5nXShodHRwczovL3NlbXZlci5vcmcvKS4KQ2hhbmdlcyB0aGF0IGNhbiBhbHRlciB2ZXJkaWN0cyBtdXN0IGFkZGl0aW9uYWxseSBzdGF0ZSB0aGVpciBldmlkZW5jZQphbmQganVzdGlmaWNhdGlvbiAoc2VlIENPTlRSSUJVVElORy5tZCwgIlZlcmRpY3QgZGlzY2lwbGluZSIpLgoKIyMgW1VucmVsZWFzZWRdCgojIyMgQWRkZWQKCi0gUmVwb3NpdG9yeSBzZWVkZWQgd2l0aCBwcm9qZWN0IGdvdmVybmFuY2U6IFJFQURNRSwgQXBhY2hlLTIuMCBsaWNlbnNlLAogIGNvbnRyaWJ1dGluZyBydWxlcywgc2VjdXJpdHkgcG9saWN5LCBjb2RlIG9mIGNvbmR1Y3QsIG1ldGhvZG9sb2d5CiAgc3VtbWFyeSwgaXNzdWUvUFIgdGVtcGxhdGVzLCBhbmQgQ0kgc2tlbGV0b24uCi0gRGlyZWN0b3J5IHN0cnVjdHVyZSBmb3IgYGVuZ2luZS9gLCBgd2ViL2AsIGB3b3JrZXIvYCwgYGRvY3MvYCwKICBgZXhhbXBsZXMvYCwgYW5kIGB0ZXN0cy9gLgoKW1VucmVsZWFzZWRdOiBodHRwczovL2dpdGh1Yi5jb20vUHJvbXB0TGFiU3R1ZGlvL0dlbm9tZS1Qcm9iZS9jb21taXRzL21haW4K
+# Changelog
+
+All notable changes to GenomeProbe are documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/),
+and this project adheres to [Semantic Versioning](https://semver.org/).
+Changes that can alter verdicts must additionally state their evidence
+and justification (see CONTRIBUTING.md, "Verdict discipline").
+
+## [Unreleased]
+
+### Added
+
+- Repository seeded with project governance: README, Apache-2.0 license,
+  contributing rules, security policy, code of conduct, methodology
+  summary, issue/PR templates, and CI skeleton.
+- Directory structure for `engine/`, `web/`, `worker/`, `docs/`,
+  `examples/`, and `tests/`.
+
+[Unreleased]: https://github.com/PromptLabStudio/Genome-Probe/commits/main
