@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------- fonts */
+
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist-Variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono-Variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------------------------------------------- tokens */
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@theme inline {
+  --color-lt-bg: var(--lt-bg);
+  --color-lt-fg: var(--lt-fg);
+  --color-lt-muted: var(--lt-muted);
+  --color-lt-surface: var(--lt-surface);
+  --color-lt-border: var(--lt-border);
+  --color-lt-border-hover: var(--lt-border-hover);
+  --color-lt-accent: var(--lt-accent);
+  --color-lt-accent-foreground: var(--lt-accent-foreground);
+}
+
+:root {
+  --lt-bg: #fafafa;
+  --lt-fg: #1c1813;
+  --lt-muted: #8a8175;
+  --lt-surface: #ffffff;
+  --lt-border: #e5e0d8;
+  --lt-border-hover: #d3cabd;
+  --lt-accent: #1c1813;
+  --lt-accent-foreground: #fafafa;
+}
+
+[data-theme="dark"] {
+  --lt-bg: #08080a;
+  --lt-fg: #f4efe6;
+  --lt-muted: #8f877a;
+  --lt-surface: #161619;
+  --lt-border: #23232a;
+  --lt-border-hover: #34343d;
+  --lt-accent: #f4efe6;
+  --lt-accent-foreground: #08080a;
+}
+
+/* ---------------------------------------------------------------- base */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--lt-bg);
+    color: var(--lt-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition:
+      background-color 0.5s ease,
+      color 0.5s ease;
+  }
+
+  ::selection {
+    background: var(--lt-fg);
+    color: var(--lt-bg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--lt-fg);
+    outline-offset: 3px;
+  }
+}
+
+/* ----------------------------------------------------------- utilities */
+
+@utility hover-thick {
+  font-variation-settings: "wght" 400;
+  transition:
+    font-variation-settings 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    color 0.3s ease;
+
+  &:hover {
+    font-variation-settings: "wght" 640;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes float-cue {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.marquee-track {
+  animation: marquee 42s linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.scroll-cue {
+  animation: float-cue 2.4s ease-in-out infinite;
+}
+
+/* Scroll reveal — no-JS safe because content is never display:none */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  filter: blur(6px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.04;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track,
+  .scroll-cue {
+    animation: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}
