@@ -1,1 +1,51 @@
-IyBTZWN1cml0eSBQb2xpY3kKCiMjIFJlcG9ydGluZyBhIHZ1bG5lcmFiaWxpdHkKCioqRG8gbm90IG9wZW4gYSBwdWJsaWMgaXNzdWUgZm9yIGEgc2VjdXJpdHkgdnVsbmVyYWJpbGl0eS4qKgoKVXNlIEdpdEh1YidzICoqcHJpdmF0ZSB2dWxuZXJhYmlsaXR5IHJlcG9ydGluZyoqICh0aGUgIlJlcG9ydCBhCnZ1bG5lcmFiaWxpdHkiIGJ1dHRvbiB1bmRlciB0aGlzIHJlcG9zaXRvcnkncyAqU2VjdXJpdHkqIHRhYikuIElmIHRoYXQKY2hhbm5lbCBpcyB1bmF2YWlsYWJsZSwgb3BlbiBhIG1pbmltYWwgaXNzdWUgdGl0bGVkICJTZWN1cml0eSBjb250YWN0CnJlcXVlc3QiIGNvbnRhaW5pbmcgKipubyB0ZWNobmljYWwgZGV0YWlscyoqLCBhbmQgYSBtYWludGFpbmVyIHdpbGwKcHJvdmlkZSBhIHByaXZhdGUgY2hhbm5lbC4KCldlIGFpbSB0bzoKCi0gYWNrbm93bGVkZ2UgeW91ciByZXBvcnQgd2l0aGluICoqNzIgaG91cnMqKiwKLSBwcm92aWRlIGFuIGluaXRpYWwgYXNzZXNzbWVudCB3aXRoaW4gKio3IGRheXMqKiwKLSBjcmVkaXQgcmVwb3J0ZXJzIGluIHRoZSBmaXggcmVsZWFzZSBub3RlcyAodW5sZXNzIHlvdSBwcmVmZXIgYW5vbnltaXR5KS4KCiMjIFNjb3BlCgpJbiBzY29wZTogdGhlIHByb2JlIGVuZ2luZSAoYGVuZ2luZS9gKSwgdGhlIHdlYiBhcHBsaWNhdGlvbiBhbmQgQVBJCihgd2ViL2ApLCBhbmQgdGhlIHByb2JlIHdvcmtlciAoYHdvcmtlci9gKSBpbiB0aGlzIHJlcG9zaXRvcnksIHBsdXMgdGhlCmhvc3RlZCBzZXJ2aWNlIGF0IGdlbm9tZXByb2JlLmNsb3VkLgoKT3V0IG9mIHNjb3BlOiB0aGlyZC1wYXJ0eSBlbmRwb2ludHMgdGhhdCB1c2VycyBjaG9vc2UgdG8gcHJvYmUsIGFuZAp2dWxuZXJhYmlsaXRpZXMgaW4gdXBzdHJlYW0gbW9kZWwgcHJvdmlkZXJzLgoKIyMgSG93IHdlIGhhbmRsZSB0ZXN0ZXIgQVBJIGtleXMKClRoaXMgcHJvZHVjdCBleGlzdHMgdG8gdGVzdCBlbmRwb2ludHMgd2l0aCBrZXlzIHRoYXQgYmVsb25nIHRvIHRlc3RlcnMsIHNvCmtleSBoYW5kbGluZyBpcyBhIHNlY3VyaXR5IGludmFyaWFudCwgbm90IGEgZmVhdHVyZToKCi0gS2V5cyBhcmUgaGVsZCAqKm9ubHkgaW4gd29ya2VyIG1lbW9yeSoqIGZvciB0aGUgZHVyYXRpb24gb2YgYSBydW4uCi0gS2V5cyBhcmUgKipuZXZlciB3cml0dGVuKiogdG8gdGhlIGRhdGFiYXNlICh0aGUgcmVzdWx0cyBzY2hlbWEgaGFzIG5vCiAga2V5IGNvbHVtbiksIHRvIGxvZ3MsIG9yIHRvIHJlc3VsdCBldmlkZW5jZS4gQXV0aG9yaXphdGlvbiBoZWFkZXJzIGFyZQogIHJlZGFjdGVkIHN0cnVjdHVyYWxseSBpbiBjb2RlIGJlZm9yZSBhbnkgYXJ0aWZhY3QgaXMgY3JlYXRlZC4KLSBUaGUgam9iIHF1ZXVlIGNhcnJpZXMgYSBvbmUtdGltZSBlbmNyeXB0ZWQgcmVmZXJlbmNlIHRoYXQgaXMgZGVzdHJveWVkCiAgd2hlbiB0aGUgcnVuIGNvbXBsZXRlcy4KLSBTZWxmLWhvc3RlZCBtb2RlIHJ1bnMgdGhlIGlkZW50aWNhbCBjb2RlIG9uIHRoZSB0ZXN0ZXIncyBtYWNoaW5lOyBpbgogIHRoYXQgbW9kZSBrZXlzIG5ldmVyIHRvdWNoIG91ciBzZXJ2ZXJzIGF0IGFsbC4KCklmIHlvdSBmaW5kIGFueSBwYXRoIHdoZXJlIGEga2V5IGNhbiBwZXJzaXN0IG9yIGxlYWssIHRoYXQgaXMgYQpjcml0aWNhbC1zZXZlcml0eSByZXBvcnQg4oCUIHBsZWFzZSB1c2UgdGhlIHByaXZhdGUgY2hhbm5lbCBhYm92ZS4KCiMjIEluY2lkZW50IGxvZwoKU2VjdXJpdHktcmVsZXZhbnQgaW5jaWRlbnRzIGFmZmVjdGluZyB0aGlzIHJlcG9zaXRvcnkgKGZvciBleGFtcGxlLCBhIGtleQphY2NpZGVudGFsbHkgY29tbWl0dGVkIGJ5IGEgY29udHJpYnV0b3IpIGFyZSByZWNvcmRlZCBoZXJlIHdpdGggZGF0ZXMgYW5kCnJlbWVkaWF0aW9uLCBhZnRlciBhbnkgYWZmZWN0ZWQgY3JlZGVudGlhbHMgaGF2ZSBiZWVuIHJvdGF0ZWQuCgotICoyMDI2LTExLTA2IOKAlCBSZXBvc2l0b3J5IGNyZWF0ZWQuIE5vIGluY2lkZW50cy4qCg==
+# Security Policy
+
+## Reporting a vulnerability
+
+**Do not open a public issue for a security vulnerability.**
+
+Use GitHub's **private vulnerability reporting** (the "Report a
+vulnerability" button under this repository's *Security* tab). If that
+channel is unavailable, open a minimal issue titled "Security contact
+request" containing **no technical details**, and a maintainer will
+provide a private channel.
+
+We aim to:
+
+- acknowledge your report within **72 hours**,
+- provide an initial assessment within **7 days**,
+- credit reporters in the fix release notes (unless you prefer anonymity).
+
+## Scope
+
+In scope: the probe engine (`engine/`), the web application and API
+(`web/`), and the probe worker (`worker/`) in this repository, plus the
+hosted service at genomeprobe.cloud.
+
+Out of scope: third-party endpoints that users choose to probe, and
+vulnerabilities in upstream model providers.
+
+## How we handle tester API keys
+
+This product exists to test endpoints with keys that belong to testers, so
+key handling is a security invariant, not a feature:
+
+- Keys are held **only in worker memory** for the duration of a run.
+- Keys are **never written** to the database (the results schema has no
+  key column), to logs, or to result evidence. Authorization headers are
+  redacted structurally in code before any artifact is created.
+- The job queue carries a one-time encrypted reference that is destroyed
+  when the run completes.
+- Self-hosted mode runs the identical code on the tester's machine; in
+  that mode keys never touch our servers at all.
+
+If you find any path where a key can persist or leak, that is a
+critical-severity report — please use the private channel above.
+
+## Incident log
+
+Security-relevant incidents affecting this repository (for example, a key
+accidentally committed by a contributor) are recorded here with dates and
+remediation, after any affected credentials have been rotated.
+
+- *2026-11-06 — Repository created. No incidents.*
