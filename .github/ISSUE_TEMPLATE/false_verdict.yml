@@ -1,1 +1,38 @@
-bmFtZTogVmVyZGljdCBmYWN0IHJlcG9ydApkZXNjcmlwdGlvbjogQ29sbGVjdCB0ZWNobmljYWwgZmFjdHMgYWJvdXQgYSB2ZXJkaWN0IHlvdSBiZWxpZXZlIGlzIHdyb25nCmxhYmVsczogWyJ2ZXJkaWN0LXJldmlldyJdCmJvZHk6CiAgLSB0eXBlOiBtYXJrZG93bgogICAgYXR0cmlidXRlczoKICAgICAgdmFsdWU6IHwKICAgICAgICBWZXJkaWN0ICoqZGlzcHV0ZXMqKiBhcmUgaGFuZGxlZCBieSB0aGUgZGlzcHV0ZSBwcm9jZXNzIGxpbmtlZCBmcm9tCiAgICAgICAgdGhlIHJlc3VsdCBwYWdlIOKAlCB0aGlzIGZvcm0gb25seSBjb2xsZWN0cyB0ZWNobmljYWwgZmFjdHMgZm9yIHRoZQogICAgICAgIG1haW50YWluZXJzIGFuZCBkb2VzIG5vdCBpdHNlbGYgb3BlbiBhIGRpc3B1dGUuICoqTmV2ZXIgcGFzdGUgYQogICAgICAgIHJlYWwgQVBJIGtleSoqIGhlcmUuCiAgLSB0eXBlOiBpbnB1dAogICAgaWQ6IHJ1bl9pZAogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IFJ1biBJRCBvciByZXN1bHQgVVJMCiAgICAgIHBsYWNlaG9sZGVyOiAiaHR0cHM6Ly9nZW5vbWVwcm9iZS5jbG91ZC9yL+KApiIKICAgIHZhbGlkYXRpb25zOgogICAgICByZXF1aXJlZDogdHJ1ZQogIC0gdHlwZTogaW5wdXQKICAgIGlkOiBlbmRwb2ludAogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IEVuZHBvaW50IChiYXNlIFVSTCBvbmx5LCBubyBrZXkpCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKICAtIHR5cGU6IGlucHV0CiAgICBpZDogY2xhaW1lZAogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IENsYWltZWQgbW9kZWwgdnMgZGV0ZWN0ZWQgcmVzdWx0CiAgICAgIHBsYWNlaG9sZGVyOiAiQ2xhaW1lZDog4oCmIC8gRGV0ZWN0ZWQ6IOKApiIKICAgIHZhbGlkYXRpb25zOgogICAgICByZXF1aXJlZDogdHJ1ZQogIC0gdHlwZTogdGV4dGFyZWEKICAgIGlkOiBldmlkZW5jZQogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IFRlY2huaWNhbCBldmlkZW5jZQogICAgICBkZXNjcmlwdGlvbjogUmVzcG9uc2Ugc2FtcGxlcywgaGVhZGVycywgb3IgbWVhc3VyZW1lbnRzIHRoYXQgc3VwcG9ydCByZS1leGFtaW5hdGlvbiAoa2V5cyByZWRhY3RlZCkuCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUK
+name: Verdict fact report
+description: Collect technical facts about a verdict you believe is wrong
+labels: ["verdict-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Verdict **disputes** are handled by the dispute process linked from
+        the result page — this form only collects technical facts for the
+        maintainers and does not itself open a dispute. **Never paste a
+        real API key** here.
+  - type: input
+    id: run_id
+    attributes:
+      label: Run ID or result URL
+      placeholder: "https://genomeprobe.cloud/r/…"
+    validations:
+      required: true
+  - type: input
+    id: endpoint
+    attributes:
+      label: Endpoint (base URL only, no key)
+    validations:
+      required: true
+  - type: input
+    id: claimed
+    attributes:
+      label: Claimed model vs detected result
+      placeholder: "Claimed: … / Detected: …"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Technical evidence
+      description: Response samples, headers, or measurements that support re-examination (keys redacted).
+    validations:
+      required: true
