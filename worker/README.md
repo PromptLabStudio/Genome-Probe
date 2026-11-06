@@ -1,1 +1,16 @@
-IyB3b3JrZXIvCgpUaGUgaXNvbGF0ZWQgcHJvYmUgcnVubmVyLiBJdCB0YWtlcyBvbmUgam9iIGF0IGEgdGltZSBmcm9tIHRoZSBxdWV1ZSwKZXhlY3V0ZXMgdGhlIGRldGVjdG9yIGJhdHRlcnkgYWdhaW5zdCB0aGUgdGFyZ2V0IGVuZHBvaW50LCBhbmQgd3JpdGVzCmJhY2sgYSByZXN1bHQuCgpTZWN1cml0eSBpbnZhcmlhbnRzIChzZWUgU0VDVVJJVFkubWQpOgoKLSBUaGUgdGVzdGVyIEFQSSBrZXkgZXhpc3RzICoqb25seSBpbiB0aGlzIHByb2Nlc3MncyBtZW1vcnkqKiBmb3IgdGhlCiAgZHVyYXRpb24gb2YgdGhlIHJ1bi4gSXQgaXMgbmV2ZXIgbG9nZ2VkLCBuZXZlciBwZXJzaXN0ZWQsIGFuZCByZWRhY3RlZAogIHN0cnVjdHVyYWxseSBmcm9tIGV2ZXJ5IGV2aWRlbmNlIGFydGlmYWN0LgotIEVncmVzcyBpcyByZXN0cmljdGVkIHRvIHRoZSB2YWxpZGF0ZWQgdGFyZ2V0OiBwcml2YXRlLCBsb29wYmFjaywgYW5kCiAgbGluay1sb2NhbCBkZXN0aW5hdGlvbnMgKGluY2x1ZGluZyBjbG91ZCBtZXRhZGF0YSBhZGRyZXNzZXMpIGFyZQogIHJlamVjdGVkIGJlZm9yZSBjb25uZWN0IGFuZCByZS1jaGVja2VkIGFmdGVyIEROUyByZXNvbHV0aW9uIGFuZAogIHJlZGlyZWN0cyAoU1NSRiBoYXJkZW5pbmcpLgotIFRoZSB3b3JrZXIgaG9sZHMgbm8gY3JlZGVudGlhbHMgZm9yIGFueSBvdGhlciBzZXJ2aWNlLgo=
+# worker/
+
+The isolated probe runner. It takes one job at a time from the queue,
+executes the detector battery against the target endpoint, and writes
+back a result.
+
+Security invariants (see SECURITY.md):
+
+- The tester API key exists **only in this process's memory** for the
+  duration of the run. It is never logged, never persisted, and redacted
+  structurally from every evidence artifact.
+- Egress is restricted to the validated target: private, loopback, and
+  link-local destinations (including cloud metadata addresses) are
+  rejected before connect and re-checked after DNS resolution and
+  redirects (SSRF hardening).
+- The worker holds no credentials for any other service.
