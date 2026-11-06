@@ -1,1 +1,14 @@
-IyB3ZWIvCgpUaGUgRmFzdEFQSSBhcHBsaWNhdGlvbjogcHVibGljIHdlYnNpdGUgKHNlcnZlci1yZW5kZXJlZCwgVGFpbHdpbmQgKwpkYWlzeVVJKSwgdGhlIFJFU1QgQVBJIChgL3YxLy4uLmApLCBhbmQgdGhlIE1DUCBzZXJ2ZXIg4oCUIG9uZSBjb2RlYmFzZSwKb25lIHByb2Nlc3MuCgpSdWxlcyB0aGF0IGJpbmQgdGhpcyBkaXJlY3Rvcnk6CgotIENvcmUgcGFnZXMgYXJlIHNlcnZlci1yZW5kZXJlZCBmb3Igc2VhcmNoIGVuZ2luZXMgYW5kIEFJIGFnZW50czsgbm8KICBjbGllbnQtc2lkZSBmcmFtZXdvcmsgaXMgcmVxdWlyZWQgdG8gcmVhZCBhIHJlc3VsdCBwYWdlLgotIFJlc3VsdCBwYWdlcyAoYC9yL3tpZH1gKSBhcmUgYXBwZW5kLW9ubHkgdmlld3Mgb3ZlciBzdG9yZWQgcmVzdWx0czoKICB0aGUgd2ViIGxheWVyIG5ldmVyIGVkaXRzIGEgcmVzdWx0LgotIFRoZSBhcHAgbmV2ZXIgcmVjZWl2ZXMgb3Igc3RvcmVzIHRlc3RlciBBUEkga2V5czsgcnVuIGNyZWF0aW9uIGhhbmRzCiAga2V5cyB0byB0aGUgd29ya2VyIHRocm91Z2ggdGhlIG9uZS10aW1lIGpvYiByZWZlcmVuY2Ugb25seS4K
+# web/
+
+The FastAPI application: public website (server-rendered, Tailwind +
+daisyUI), the REST API (`/v1/...`), and the MCP server — one codebase,
+one process.
+
+Rules that bind this directory:
+
+- Core pages are server-rendered for search engines and AI agents; no
+  client-side framework is required to read a result page.
+- Result pages (`/r/{id}`) are append-only views over stored results:
+  the web layer never edits a result.
+- The app never receives or stores tester API keys; run creation hands
+  keys to the worker through the one-time job reference only.
