@@ -3,22 +3,27 @@ node_modules/
 
 # Build output
 dist/
-*.tsbuildinfo
+dist-ssr/
 
-# Env
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
 .env
 .env.*
 !.env.example
 
-# Local working files
-Muse/
-TEMP/
-
-# Logs
-*.log
-
-# OS / editor
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
+
+# Scratch / temporary artifacts
+Muse/TEMP/
