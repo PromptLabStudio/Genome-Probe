@@ -1,1 +1,21 @@
-bmFtZTogRmVhdHVyZSByZXF1ZXN0CmRlc2NyaXB0aW9uOiBTdWdnZXN0IGEgZGV0ZWN0b3IsIGludGVncmF0aW9uLCBvciBpbXByb3ZlbWVudApsYWJlbHM6IFsiZW5oYW5jZW1lbnQiXQpib2R5OgogIC0gdHlwZTogdGV4dGFyZWEKICAgIGlkOiBwcm9ibGVtCiAgICBhdHRyaWJ1dGVzOgogICAgICBsYWJlbDogV2hhdCBwcm9ibGVtIGRvZXMgdGhpcyBzb2x2ZT8KICAgICAgZGVzY3JpcHRpb246IERlc2NyaWJlIHRoZSByZWxheSBiZWhhdmlvciwgYmxpbmQgc3BvdCwgb3Igd29ya2Zsb3cgdGhpcyBhZGRyZXNzZXMuCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKICAtIHR5cGU6IHRleHRhcmVhCiAgICBpZDogcHJvcG9zYWwKICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiBQcm9wb3NlZCBzb2x1dGlvbgogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgLSB0eXBlOiB0ZXh0YXJlYQogICAgaWQ6IGFsdGVybmF0aXZlcwogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IEFsdGVybmF0aXZlcyBjb25zaWRlcmVkCg==
+name: Feature request
+description: Suggest a detector, integration, or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the relay behavior, blind spot, or workflow this addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
