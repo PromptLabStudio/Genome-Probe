@@ -1,1 +1,10 @@
-IyBleGFtcGxlcy8KCldvcmtlZCBleGFtcGxlcyBmb3IgdGhlIHRocmVlIHdheXMgdG8gdXNlIEdlbm9tZVByb2JlOgoKLSBgY3VybGAgY2FsbHMgYWdhaW5zdCB0aGUgcHVibGljIFJFU1QgQVBJLAotIE1DUCBjbGllbnQgY29uZmlndXJhdGlvbiBhbmQgdG9vbCBjYWxscywKLSBhIHNhbXBsZSAoZnVsbHkgc3ludGhldGljKSByZXN1bHQgcGF5bG9hZCBzaG93aW5nIHRoZSByZXBvcnQgZm9ybWF0LgoKQWxsIGV4YW1wbGVzIHVzZSB0aGUgcGxhY2Vob2xkZXIga2V5IGBzay1SRVBMQUNFX01FYC4gRXhhbXBsZXMgbGFuZAphbG9uZ3NpZGUgdGhlIGZpcnN0IHB1YmxpYyBlbmdpbmUgcmVsZWFzZS4K
+# examples/
+
+Worked examples for the three ways to use GenomeProbe:
+
+- `curl` calls against the public REST API,
+- MCP client configuration and tool calls,
+- a sample (fully synthetic) result payload showing the report format.
+
+All examples use the placeholder key `sk-REPLACE_ME`. Examples land
+alongside the first public engine release.
