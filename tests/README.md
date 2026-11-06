@@ -1,1 +1,10 @@
-IyB0ZXN0cy8KClRlc3Qgc3VpdGUgZm9yIGBlbmdpbmUvYCwgYHdlYi9gLCBhbmQgYHdvcmtlci9gLgoKLSBFdmVyeSBkZXRlY3RvciBzaGlwcyB3aXRoIHVuaXQgdGVzdHMgcGx1cyBhdCBsZWFzdCBvbmUgYWR2ZXJzYXJpYWwKICBmaXh0dXJlIChhIHJlbGF5IGJlaGF2aW9yIGl0IG11c3QgY2F0Y2ggYW5kIG9uZSBpdCBtdXN0IG5vdAogIGZhbHNlLXBvc2l0aXZlIG9uKS4KLSBUZXN0cyBuZXZlciB1c2UgcmVhbCBBUEkga2V5cyBvciBsaXZlIHRoaXJkLXBhcnR5IGVuZHBvaW50czsgdGFyZ2V0cwogIGFyZSBsb2NhbCBmaXh0dXJlcy4KLSBDSSBydW5zIHRoaXMgc3VpdGUgb24gZXZlcnkgcHVsbCByZXF1ZXN0OyBhIHJlZCBzdWl0ZSBibG9ja3MgbWVyZ2UuCg==
+# tests/
+
+Test suite for `engine/`, `web/`, and `worker/`.
+
+- Every detector ships with unit tests plus at least one adversarial
+  fixture (a relay behavior it must catch and one it must not
+  false-positive on).
+- Tests never use real API keys or live third-party endpoints; targets
+  are local fixtures.
+- CI runs this suite on every pull request; a red suite blocks merge.
