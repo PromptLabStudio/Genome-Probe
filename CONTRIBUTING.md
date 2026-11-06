@@ -1,1 +1,58 @@
-IyBDb250cmlidXRpbmcgdG8gR2Vub21lUHJvYmUKClRoYW5rcyBmb3IgaGVscGluZyBtYWtlIG1vZGVsIHZlcmlmaWNhdGlvbiBiZXR0ZXIuIFRoaXMgZG9jdW1lbnQgaXMgdGhlCmNvbXBsZXRlIHJ1bGVib29rIGZvciBjb250cmlidXRpbmcg4oCUIHBsZWFzZSByZWFkIGl0IGJlZm9yZSB5b3VyIGZpcnN0IFBSLgoKIyMgV2F5cyB0byBjb250cmlidXRlCgotIE5ldyBvciBpbXByb3ZlZCBkZXRlY3RvcnMgKG9wZW4gYW4gaXNzdWUgZmlyc3QgdG8gZGlzY3VzcyB0aGUgYXBwcm9hY2gpCi0gQnVnIGZpeGVzIGFuZCBjb3JyZWN0bmVzcyBpbXByb3ZlbWVudHMKLSBEb2N1bWVudGF0aW9uIGFuZCB0cmFuc2xhdGlvbnMKLSBUZXN0IGNvdmVyYWdlLCBlc3BlY2lhbGx5IGFkdmVyc2FyaWFsIHJlbGF5IGZpeHR1cmVzCgojIyBHcm91bmQgcnVsZXMKCjEuICoqRXZlcnl0aGluZyBsYW5kcyB2aWEgcHVsbCByZXF1ZXN0LioqIERpcmVjdCBwdXNoZXMgdG8gYG1haW5gIGFyZQogICBibG9ja2VkLiBBIFBSIG5lZWRzIGdyZWVuIENJIGFuZCBhdCBsZWFzdCBvbmUgbWFpbnRhaW5lciByZXZpZXcuCjIuICoqVGVzdHMgYXJlIG1hbmRhdG9yeSoqIGZvciBjaGFuZ2VzIHVuZGVyIGBlbmdpbmUvYCwgYHdlYi9gLCBvcgogICBgd29ya2VyL2AuIE5ldyBiZWhhdmlvciBzaGlwcyB3aXRoIHRlc3RzOyBidWcgZml4ZXMgc2hpcCB3aXRoIGEKICAgcmVncmVzc2lvbiB0ZXN0LgozLiAqKlZlcmRpY3QgZGlzY2lwbGluZS4qKiBBbnkgY2hhbmdlIHRoYXQgY2FuIGFsdGVyIGEgdmVyZGljdCwgYSBzY29yZSwgb3IKICAgYSBkZXRlY3RvciB0aHJlc2hvbGQgbXVzdDoKICAgLSBidW1wIHRoZSBlbmdpbmUgdmVyc2lvbiwKICAgLSBleHBsYWluIHRoZSBjaGFuZ2UgKndpdGggZXZpZGVuY2UqIGluIGBDSEFOR0VMT0cubWRgLAogICAtIG5ldmVyIGJlIHR1bmVkIHRvIG1ha2UgYSBzcGVjaWZpYyBnYXRld2F5IGxvb2sgYmV0dGVyIG9yIHdvcnNlLgogICBWZXJkaWN0IGludGVncml0eSBpcyB0aGUgcHJvZHVjdDsgUFJzIHRoYXQgY29tcHJvbWlzZSBpdCBhcmUgcmVqZWN0ZWQKICAgcmVnYXJkbGVzcyBvZiB0ZWNobmljYWwgbWVyaXQuCjQuICoqRGlzcHV0ZXMgYXJlIG5vdCBHaXRIdWIgaXNzdWVzLioqIElmIHlvdSBvcGVyYXRlIGFuIGVuZHBvaW50IGFuZAogICBiZWxpZXZlIGEgdmVyZGljdCBhYm91dCBpdCBpcyB3cm9uZywgdXNlIHRoZSBkaXNwdXRlIHByb2Nlc3MgbGlua2VkIGZyb20KICAgdGhlIHJlc3VsdCBwYWdlLiBUaGUgYGZhbHNlX3ZlcmRpY3RgIGlzc3VlIHRlbXBsYXRlIGV4aXN0cyBvbmx5IHRvCiAgIGNvbGxlY3QgdGVjaG5pY2FsIGZhY3RzIChydW4gaWQsIGVuZHBvaW50LCBldmlkZW5jZSkgYW5kIHBvaW50cyB0byB0aGF0CiAgIHByb2Nlc3MuCgojIyBIYXJkIHByb2hpYml0aW9ucwoKTmV2ZXIgaW5jbHVkZSwgaW4gYW55IGlzc3VlLCBQUiwgY29tbWl0LCBvciBhdHRhY2htZW50OgoKLSAqKlJlYWwgQVBJIGtleXMqKiDigJQgYW55b25lJ3MsIGluY2x1ZGluZyB5b3VyIG93bi4gRXhhbXBsZXMgYWx3YXlzIHVzZQogIHRoZSBwbGFjZWhvbGRlciBgc2stUkVQTEFDRV9NRWAuIEEga2V5IHRoYXQgZ2V0cyBwb3N0ZWQgaXMgdHJlYXRlZCBhcwogIGxlYWtlZDogaXQgbXVzdCBiZSByb3RhdGVkLCBhbmQgbWFpbnRhaW5lcnMgd2lsbCBzY3J1YiBoaXN0b3J5IGFuZCBub3RlCiAgdGhlIGluY2lkZW50IGluIGBTRUNVUklUWS5tZGAuCi0gKipCYXNlbGluZSBmaW5nZXJwcmludCBkYXRhKiogKHJhdyBvciBkZXJpdmVkKS4gQmFzZWxpbmVzIGFyZSBtYW5hZ2VkCiAgb3V0c2lkZSB0aGlzIHJlcG9zaXRvcnkuCi0gKipQZXJzb25hbCBkYXRhKiogb2YgdXNlcnMsIHRlc3RlcnMsIG9yIGdhdGV3YXkgb3BlcmF0b3JzLgoKIyMgU3R5bGUKCi0gQ29tbWl0IG1lc3NhZ2VzOiBgYXJlYTogc2hvcnQgc3VtbWFyeWAsIGUuZy4KICBgZW5naW5lOiBhZGQgc3RyZWFtaW5nIHBhcml0eSBkZXRlY3RvcmAuCi0gUHl0aG9uIGNvZGUgaXMgZm9ybWF0dGVkIGFuZCBsaW50ZWQgd2l0aCBgcnVmZmAgKGNvbmZpZ3VyYXRpb24gaW4gdGhlCiAgcmVwbyByb290IG9uY2UgY29kZSBsYW5kcyk7IENJIGVuZm9yY2VzIGl0LgotIFdyaXRlIGNvbW1lbnRzIGFuZCBkb2NzIGluIEVuZ2xpc2guIEV4cGxhaW4gKndoeSosIG5vdCAqd2hhdCouCgojIyBMaWNlbnNpbmcgb2YgY29udHJpYnV0aW9ucwoKQnkgb3BlbmluZyBhIHB1bGwgcmVxdWVzdCB5b3UgYWdyZWUgeW91ciBjb250cmlidXRpb24gaXMgcmVsZWFzZWQgdW5kZXIKdGhlIHByb2plY3QncyBBcGFjaGUtMi4wIGxpY2Vuc2UgKGluYm91bmQgPSBvdXRib3VuZCkuIERvIG5vdCBzdWJtaXQgY29kZQp5b3UgZG8gbm90IGhhdmUgdGhlIHJpZ2h0IHRvIGNvbnRyaWJ1dGUsIGFuZCBkbyBub3QgY29weSBjb2RlIGZyb20KQUdQTC1saWNlbnNlZCBwcm9qZWN0cyBpbnRvIHRoaXMgcmVwb3NpdG9yeS4K
+# Contributing to GenomeProbe
+
+Thanks for helping make model verification better. This document is the
+complete rulebook for contributing — please read it before your first PR.
+
+## Ways to contribute
+
+- New or improved detectors (open an issue first to discuss the approach)
+- Bug fixes and correctness improvements
+- Documentation and translations
+- Test coverage, especially adversarial relay fixtures
+
+## Ground rules
+
+1. **Everything lands via pull request.** Direct pushes to `main` are
+   blocked. A PR needs green CI and at least one maintainer review.
+2. **Tests are mandatory** for changes under `engine/`, `web/`, or
+   `worker/`. New behavior ships with tests; bug fixes ship with a
+   regression test.
+3. **Verdict discipline.** Any change that can alter a verdict, a score, or
+   a detector threshold must:
+   - bump the engine version,
+   - explain the change *with evidence* in `CHANGELOG.md`,
+   - never be tuned to make a specific gateway look better or worse.
+   Verdict integrity is the product; PRs that compromise it are rejected
+   regardless of technical merit.
+4. **Disputes are not GitHub issues.** If you operate an endpoint and
+   believe a verdict about it is wrong, use the dispute process linked from
+   the result page. The `false_verdict` issue template exists only to
+   collect technical facts (run id, endpoint, evidence) and points to that
+   process.
+
+## Hard prohibitions
+
+Never include, in any issue, PR, commit, or attachment:
+
+- **Real API keys** — anyone's, including your own. Examples always use
+  the placeholder `sk-REPLACE_ME`. A key that gets posted is treated as
+  leaked: it must be rotated, and maintainers will scrub history and note
+  the incident in `SECURITY.md`.
+- **Baseline fingerprint data** (raw or derived). Baselines are managed
+  outside this repository.
+- **Personal data** of users, testers, or gateway operators.
+
+## Style
+
+- Commit messages: `area: short summary`, e.g.
+  `engine: add streaming parity detector`.
+- Python code is formatted and linted with `ruff` (configuration in the
+  repo root once code lands); CI enforces it.
+- Write comments and docs in English. Explain *why*, not *what*.
+
+## Licensing of contributions
+
+By opening a pull request you agree your contribution is released under
+the project's Apache-2.0 license (inbound = outbound). Do not submit code
+you do not have the right to contribute, and do not copy code from
+AGPL-licensed projects into this repository.
