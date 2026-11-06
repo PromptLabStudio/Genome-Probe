@@ -1,1 +1,15 @@
-IyBlbmdpbmUvCgpUaGUgZGV0ZWN0b3IgY29yZTogaWRlbnRpdHkgZmluZ2VycHJpbnRpbmcsIG1ldGVyaW5nIGF1ZGl0cywgY2hhbm5lbApkZXRlY3Rpb24sIHN0cmVhbWluZy9zdHJ1Y3R1cmVkLW91dHB1dCBpbnRlZ3JpdHksIGFuZCB2ZXJkaWN0IGNvbXBvc2l0aW9uLgoKUnVsZXMgdGhhdCBiaW5kIHRoaXMgZGlyZWN0b3J5OgoKLSBEZXRlY3RvcnMgYXJlIHB1cmUsIGluZGl2aWR1YWxseSB0ZXN0YWJsZSB1bml0cyB3aXRoIHRoZWlyIG93biB0aW1lCiAgYnVkZ2V0cyAoc2VlIE1FVEhPRE9MT0dZLm1kKS4KLSBObyBkZXRlY3RvciBtYXkgZGVwZW5kIG9uIGEgc2luZ2xlIHJlcXVlc3Qgb3IgYSBzaW5nbGUgaGVhZGVyIGZvciBhCiAgbGFiZWwuCi0gQW55dGhpbmcgdGhhdCBjYW4gY2hhbmdlIGEgdmVyZGljdCBpcyB2ZXJzaW9uZWQgYW5kIGNoYW5nZWxvZ2dlZCB3aXRoCiAgZXZpZGVuY2UgKHNlZSBDT05UUklCVVRJTkcubWQsICJWZXJkaWN0IGRpc2NpcGxpbmUiKS4KLSBCYXNlbGluZSAqZGF0YSogbmV2ZXIgbGl2ZXMgaGVyZSDigJQgb25seSB0aGUgY29kZSB0aGF0IGNvbnN1bWVzCiAgdmVyc2lvbmVkIGJhc2VsaW5lIGRhdGFzZXRzIG1hbmFnZWQgb3V0c2lkZSB0aGlzIHJlcG9zaXRvcnkuCg==
+# engine/
+
+The detector core: identity fingerprinting, metering audits, channel
+detection, streaming/structured-output integrity, and verdict composition.
+
+Rules that bind this directory:
+
+- Detectors are pure, individually testable units with their own time
+  budgets (see METHODOLOGY.md).
+- No detector may depend on a single request or a single header for a
+  label.
+- Anything that can change a verdict is versioned and changelogged with
+  evidence (see CONTRIBUTING.md, "Verdict discipline").
+- Baseline *data* never lives here — only the code that consumes
+  versioned baseline datasets managed outside this repository.
