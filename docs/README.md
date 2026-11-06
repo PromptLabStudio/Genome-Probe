@@ -1,1 +1,9 @@
-IyBkb2NzLwoKRXh0ZW5kZWQgZG9jdW1lbnRhdGlvbjogYXJjaGl0ZWN0dXJlIG5vdGVzLCB0aGUgcmVzdWx0LWZvcm1hdApzcGVjaWZpY2F0aW9uLCBhbmQgb3BlcmF0b3IgZ3VpZGVzLgoKVGhlIHB1YmxpYyBtZXRob2RvbG9neSBsaXZlcyBpbiB0aGUgcmVwb3NpdG9yeSByb290CihbLi4vTUVUSE9ET0xPR1kubWRdKC4uL01FVEhPRE9MT0dZLm1kKSkgYW5kIGF0Cmdlbm9tZXByb2JlLmNsb3VkL21ldGhvZG9sb2d5OyBkb2N1bWVudHMgaGVyZSBnbyBkZWVwZXIgZm9yIGNvbnRyaWJ1dG9ycwphbmQgc2VsZi1ob3N0ZXJzLgo=
+# docs/
+
+Extended documentation: architecture notes, the result-format
+specification, and operator guides.
+
+The public methodology lives in the repository root
+([../METHODOLOGY.md](../METHODOLOGY.md)) and at
+genomeprobe.cloud/methodology; documents here go deeper for contributors
+and self-hosters.
