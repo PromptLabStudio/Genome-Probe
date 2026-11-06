@@ -1,1 +1,76 @@
-IyBNZXRob2RvbG9neSAoc3VtbWFyeSkKClRoZSBmdWxsLCBhbHdheXMtY3VycmVudCBtZXRob2RvbG9neSBsaXZlcyBhdAoqKmdlbm9tZXByb2JlLmNsb3VkL21ldGhvZG9sb2d5KiouIFRoaXMgZmlsZSBpcyB0aGUgaW4tcmVwbyBzdW1tYXJ5IHNvIHRoZQpyZXBvc2l0b3J5IHN0YW5kcyBvbiBpdHMgb3duLgoKIyMgUHJpbmNpcGxlcwoKMS4gKipFdmVyeSBjbGFpbSBwb2ludHMgdG8gcmF3IGV2aWRlbmNlLioqIEVhY2ggZGV0ZWN0b3IgcmVzdWx0IGxpbmtzIHRvCiAgIHRoZSBhY3R1YWwgcmVxdWVzdC9yZXNwb25zZSBhcnRpZmFjdHMgKGtleXMgc3RydWN0dXJhbGx5IHJlZGFjdGVkKS4KMi4gKioiSW5jb25jbHVzaXZlIiBpcyBhIGZpcnN0LWNsYXNzIHZlcmRpY3QuKiogQSBwcm9iZSB0aGF0IGZvcmNlcyBhCiAgIHZlcmRpY3QgZnJvbSB0aGluIGRhdGEgbWFudWZhY3R1cmVzIGZhbHNlIGFjY3VzYXRpb25zLiBXaGVuIGV2aWRlbmNlIGlzCiAgIGJlbG93IGEgcHVibGlzaGVkIHRocmVzaG9sZCwgd2Ugc2F5IHNvLCBhbmQgd2Ugc2hvdyB0aGUgbmVhcmVzdCBtb2RlbHMKICAgYW5kIHRoZSBkaXN0YW5jZSBzY29yZXMuCjMuICoqQ29tcG9zaXRlIHNjb3JlcyBjb3VudCBvbmx5IGRldGVjdG9ycyB0aGF0IGFjdHVhbGx5IHJhbi4qKiBUaW1lZC1vdXQKICAgb3IgaW5hcHBsaWNhYmxlIGRldGVjdG9ycyBhcmUgbGlzdGVkIGFzICJub3QgdGVzdGVkIiwgbmV2ZXIgc2lsZW50bHkKICAgdHJlYXRlZCBhcyBwYXNzZWQuCgojIyBWZXJkaWN0IHRheG9ub215CgpUd28gaW5kZXBlbmRlbnQgYXhlczoKCi0gKipBdXRoZW50aWNpdHk6KiogYEdlbnVpbmVgIMK3IGBHZW51aW5lIHdpdGggZGVmZWN0c2AgwrcgYFN3YXBwZWQg4oCUCiAgZGlmZmVyZW50IG1vZGVsIGRldGVjdGVkYCDCtyBgRG93bmdyYWRlZCDigJQgY2hlYXBlciBzaWJsaW5nIGRldGVjdGVkYCDCtwogIGBJbmNvbmNsdXNpdmVgCi0gKipPcmlnaW46KiogYE9mZmljaWFsIEFQSWAgwrcgYENsb3VkIGNoYW5uZWwgKEJlZHJvY2svVmVydGV4L0F6dXJlKWAgwrcKICBgU3Vic2NyaXB0aW9uLWRlcml2ZWRgIMK3IGBSZWxheS9hZ2dyZWdhdG9yYCDCtyBgVW5kZXRlcm1pbmVkYAoKIyMgRGV0ZWN0b3IgZmFtaWxpZXMKCi0gKipJZGVudGl0eSBmaW5nZXJwcmludGluZy4qKiBBIGJhdHRlcnkgb2Ygc2hvcnQsIGRldGVybWluaXN0aWMgYmVoYXZpb3JhbAogIHByb2JlcyBjb21wYXJlZCBhZ2FpbnN0IGJhc2VsaW5lcyBjYXB0dXJlZCBmcm9tICoqb2ZmaWNpYWwgcHJvdmlkZXIKICBlbmRwb2ludHMgb25seSoqLiBGYW1pbHkgY2xhc3NpZmljYXRpb24gaXMgdGhlIGZsb29yIG9mIGV2ZXJ5IHJ1bjsKICBzdWItbW9kZWwgdmVyZGljdHMgcmVxdWlyZSB0aGUgZGlzdGFuY2UgdG8gdGhlIHdpbm5pbmcgYmFzZWxpbmUgdG8gcGFzcwogIGEgcHVibGlzaGVkIHN0YXRpc3RpY2FsIHRocmVzaG9sZC4KLSAqKkNsYXVkZSB0aGlua2luZy1zaWduYXR1cmUgdmVyaWZpY2F0aW9uLioqIFJlc3BvbnNlcyB3aXRoIHRoaW5raW5nCiAgZW5hYmxlZCBjYXJyeSBhIGBzaWduYXR1cmVgIGJsb2NrIHNpZ25lZCBieSBBbnRocm9waWMncyBzZXJ2ZXJzOyBhIHJlbGF5CiAgY2Fubm90IGZvcmdlIGl0LiBUaGlzIHByb3ZlcyB0aGUgdHJhZmZpYyB0cmF2ZXJzZWQgdGhlIGdlbnVpbmUgQW50aHJvcGljCiAgcGF0aC4gSXQgZG9lcyAqKm5vdCoqIHByb3ZlIHRoZSB0aWVyIOKAlCB0aWVyIGlzIGRlY2lkZWQgYnkgYmVoYXZpb3JhbAogIGZpbmdlcnByaW50aW5nLiBCb3RoIGhhbHZlcyBvZiB0aGF0IHNlbnRlbmNlIG1hdHRlci4KLSAqKk1ldGVyaW5nIGhvbmVzdHkuKiogQ2FsaWJyYXRlZCBwcm9tcHRzIHdpdGggZXhhY3RseSBrbm93biB0b2tlbiBjb3VudHMKICBwZXIgZmFtaWx5IHRva2VuaXplciBhcmUgY29tcGFyZWQgdG8gcmVwb3J0ZWQgYHByb21wdF90b2tlbnNgOyBzdHJlYW0KICBhbmQgbm9uLXN0cmVhbSB1c2FnZSBhcmUgY3Jvc3MtY2hlY2tlZDsgc2VxdWVudGlhbCBpZGVudGljYWwgcmVxdWVzdHMKICBhcmUgaW5zcGVjdGVkIGZvciB1bmRpc2Nsb3NlZCBjYWNoZSBkb3VibGUtYmlsbGluZy4KLSAqKkNoYW5uZWwgZGV0ZWN0aW9uLioqIFJlbGF5IGZpbmdlcnByaW50cyBhcmUgYWdncmVnYXRlZCBmcm9tICoqbWFueSoqCiAgcmVzcG9uc2VzIGFjcm9zcyByZXNwb25zZSBjbGFzc2VzIChjaGF0LCBzdHJlYW1pbmcsIG1vZGVsIGxpc3QsCiAgbWVzc2FnZXMgZm9ybWF0LCBhbmQgZXJyb3IgZW52ZWxvcGVzKS4gTm8gbGFiZWwgZXZlciBkZXBlbmRzIG9uIGEKICBzaW5nbGUgcmVxdWVzdCBvciBhIHNpbmdsZSBoZWFkZXIuCi0gKipTdHJlYW1pbmcgcGFyaXR5LioqIFN0cmVhbWVkIGFuZCBub24tc3RyZWFtZWQgYW5zd2VycyB0byBpZGVudGljYWwKICBwcm9tcHRzIG11c3QgbWF0Y2ggaW4gY29udGVudCwgdXNhZ2UsIGFuZCBjaHVuayBzdHJ1Y3R1cmUuCi0gKipTdHJ1Y3R1cmVkLW91dHB1dCBwYXNzdGhyb3VnaC4qKiBBIHN0cmljdCBganNvbl9zY2hlbWFgIHJlcXVlc3QgbXVzdAogIGJlIGVuZm9yY2VkLCBub3QgcXVpZXRseSBkb3duZ3JhZGVkIHRvIGxvb3NlIEpTT04gb3Igd3JhcHBlZCBpbgogIE1hcmtkb3duIGZlbmNlcy4KLSAqKlNTRSBpbnRlZ3JpdHkuKiogRGV0ZWN0cyBidWZmZXJlZCAiZmFrZSBzdHJlYW1pbmciLCBzaWxlbnQgbWlkLXN0cmVhbQogIHRydW5jYXRpb24sIGFuZCBoaWRkZW4gbWlkLXN0cmVhbSBlcnJvcnMuCi0gKipDb250ZXh0LWxlbmd0aCB2ZXJpZmljYXRpb24uKiogVGllcmVkIG5lZWRsZSB0ZXN0cyAoMzJLIOKGkiAxMjhLIOKGkgogIGNsYWltZWQgbWF4aW11bSkgd2l0aCBwZXItcnVuIHJhbmRvbSBuZWVkbGVzOyBzaWxlbnQgdHJ1bmNhdGlvbiBpcwogIHJlcG9ydGVkIGFzIGEgbWVhc3VyZWQgY3V0LW9mZiBwb2ludC4gVGhpcyBtb2RlIGNhcnJpZXMgYSBwdWJsaXNoZWQKICBjb3N0IGVzdGltYXRlIGJlZm9yZSBpdCBydW5zLCBiZWNhdXNlIGl0IHNwZW5kcyB0aGUgdGVzdGVyJ3MgdG9rZW5zLgoKIyMgVGltZSBidWRnZXRzCgpFdmVyeSBkZXRlY3RvciBoYXMgaXRzIG93biB0aW1lb3V0IGFuZCByZXRyeSBidWRnZXQuIFRoZXJlIGlzICoqbm8gZ2xvYmFsCnJ1biBkZWFkbGluZSoqIHRoYXQgY2FuIGtpbGwgYSBydW4g4oCUIHNsb3cgZW5kcG9pbnRzIGFyZSBleGFjdGx5IHRoZSBvbmVzCm1vc3Qgd29ydGggdGVzdGluZy4gQSBRdWljayBtb2RlIChkZXRlcm1pbmlzdGljIGRldGVjdG9ycyBvbmx5KSB0YXJnZXRzCnVuZGVyIDkwIHNlY29uZHMgb24gYSBoZWFsdGh5IGVuZHBvaW50OyBGdWxsIG1vZGUgcnVucyBldmVyeXRoaW5nIGFuZApzaG93cyB0aW1lL2Nvc3QgZXN0aW1hdGVzIHVwIGZyb250LgoKIyMgS25vd24gbGltaXRhdGlvbnMgKHN0YXRlZCBiZWZvcmUgb3RoZXJzIHN0YXRlIHRoZW0gZm9yIHVzKQoKLSBBIHRoaW5raW5nIHNpZ25hdHVyZSBwcm92ZXMgcGF0aCwgbm90IHRpZXIgKGFib3ZlKS4KLSBUZW1wZXJhdHVyZS0wIGFncmVlbWVudCBpcyB3ZWFrIGV2aWRlbmNlIGJldHdlZW4gY2xvc2Ugc2libGluZyBtb2RlbHM7CiAgd2UgdHJlYXQgZGlmZmVyZW50aWFsIHRlc3RzIGFzIGEgd2VhayBzaWduYWwgb25seS4KLSBBIHNtYWxsIHNldCBvZiBhbnRpLWdhbWluZyBwcm9iZXMgaXMgZGVsaWJlcmF0ZWx5IG5vdCBwdWJsaXNoZWQsIHNvCiAgcmVsYXlzIGNhbm5vdCB0cmFpbiBhZ2FpbnN0IHRoZSBmdWxsIGJhdHRlcnkuIERldGVjdG9yICpmYW1pbGllcyogYW5kCiAgdGhyZXNob2xkcyBhcmUgcHVibGljOyBzcGVjaWZpYyBhbnRpLWdhbWluZyBwcm9tcHQgY29udGVudCBpcyBub3QuCg==
+# Methodology (summary)
+
+The full, always-current methodology lives at
+**genomeprobe.cloud/methodology**. This file is the in-repo summary so the
+repository stands on its own.
+
+## Principles
+
+1. **Every claim points to raw evidence.** Each detector result links to
+   the actual request/response artifacts (keys structurally redacted).
+2. **"Inconclusive" is a first-class verdict.** A probe that forces a
+   verdict from thin data manufactures false accusations. When evidence is
+   below a published threshold, we say so, and we show the nearest models
+   and the distance scores.
+3. **Composite scores count only detectors that actually ran.** Timed-out
+   or inapplicable detectors are listed as "not tested", never silently
+   treated as passed.
+
+## Verdict taxonomy
+
+Two independent axes:
+
+- **Authenticity:** `Genuine` · `Genuine with defects` · `Swapped —
+  different model detected` · `Downgraded — cheaper sibling detected` ·
+  `Inconclusive`
+- **Origin:** `Official API` · `Cloud channel (Bedrock/Vertex/Azure)` ·
+  `Subscription-derived` · `Relay/aggregator` · `Undetermined`
+
+## Detector families
+
+- **Identity fingerprinting.** A battery of short, deterministic behavioral
+  probes compared against baselines captured from **official provider
+  endpoints only**. Family classification is the floor of every run;
+  sub-model verdicts require the distance to the winning baseline to pass
+  a published statistical threshold.
+- **Claude thinking-signature verification.** Responses with thinking
+  enabled carry a `signature` block signed by Anthropic's servers; a relay
+  cannot forge it. This proves the traffic traversed the genuine Anthropic
+  path. It does **not** prove the tier — tier is decided by behavioral
+  fingerprinting. Both halves of that sentence matter.
+- **Metering honesty.** Calibrated prompts with exactly known token counts
+  per family tokenizer are compared to reported `prompt_tokens`; stream
+  and non-stream usage are cross-checked; sequential identical requests
+  are inspected for undisclosed cache double-billing.
+- **Channel detection.** Relay fingerprints are aggregated from **many**
+  responses across response classes (chat, streaming, model list,
+  messages format, and error envelopes). No label ever depends on a
+  single request or a single header.
+- **Streaming parity.** Streamed and non-streamed answers to identical
+  prompts must match in content, usage, and chunk structure.
+- **Structured-output passthrough.** A strict `json_schema` request must
+  be enforced, not quietly downgraded to loose JSON or wrapped in
+  Markdown fences.
+- **SSE integrity.** Detects buffered "fake streaming", silent mid-stream
+  truncation, and hidden mid-stream errors.
+- **Context-length verification.** Tiered needle tests (32K → 128K →
+  claimed maximum) with per-run random needles; silent truncation is
+  reported as a measured cut-off point. This mode carries a published
+  cost estimate before it runs, because it spends the tester's tokens.
+
+## Time budgets
+
+Every detector has its own timeout and retry budget. There is **no global
+run deadline** that can kill a run — slow endpoints are exactly the ones
+most worth testing. A Quick mode (deterministic detectors only) targets
+under 90 seconds on a healthy endpoint; Full mode runs everything and
+shows time/cost estimates up front.
+
+## Known limitations (stated before others state them for us)
+
+- A thinking signature proves path, not tier (above).
+- Temperature-0 agreement is weak evidence between close sibling models;
+  we treat differential tests as a weak signal only.
+- A small set of anti-gaming probes is deliberately not published, so
+  relays cannot train against the full battery. Detector *families* and
+  thresholds are public; specific anti-gaming prompt content is not.
